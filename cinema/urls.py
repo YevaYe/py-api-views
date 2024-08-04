@@ -7,7 +7,7 @@ from cinema.views import (
     GenreList,
     GenreDetail,
     ActorDetail,
-    ActorList
+    ActorList,
 )
 
 app_name = "cinema"
@@ -24,7 +24,7 @@ cinema_detail = CinemaHallViewSet.as_view(
         "get": "retrieve",
         "put": "update",
         "patch": "partial_update",
-        "delete": "destroy"
+        "delete": "destroy",
     }
 )
 
